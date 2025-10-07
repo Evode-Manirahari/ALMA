@@ -1,0 +1,17 @@
+{
+  "name": "alma-ai-assistant",
+  "version": "1.0.0",
+  "description": "ALMA - A friendly AI assistant with built-in bias detection to ensure equality, inclusion, and satisfaction",
+  "scripts": {
+    "dev": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "cd client && npm start",
+    "install-deps": "cd client && npm install"
+  },
+  "dependencies": {
+    "natural": "^6.10.4"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
